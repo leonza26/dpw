@@ -1,0 +1,36 @@
+p {
+    color: blue;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+p {
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+.p1, .p2 {
+    color: rgb(66, 5, 61);
+}
+
+body {
+    background-color: chartreuse;
+    background-image:  url(/frontend/images/Celtics_1600\ x\ 1200.jpg);
+    background-repeat: repeat-y;
+}
+
+.container  {
+    color: blueviolet;
+    background-color: rgb(26, 6, 73);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}

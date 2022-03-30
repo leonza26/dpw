@@ -1,0 +1,108 @@
+
+<!-- saved from url=(0036)http://127.0.0.1:5500/layoutcss.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman home</title>
+    <link rel="stylesheet" type="text/css" href="./Halaman home_files/Style1.css">
+</head>
+
+<body>
+      <!--Menu -->
+      <header>
+      <div class="menu">
+          <ul>
+          <li><a target="blank" href="http://127.0.0.1:5500/layoutcss.html">Home</a></li>
+          <li><a target="blank" href="http://127.0.0.1:5500/AboutMe.html">About </a></li>
+          <li><a target="blank" href="http://127.0.0.1:5500/CV.html">CV</a></li>
+          </ul>
+      </div>
+      </header>
+    
+        
+    <!--gmbar logo-->
+    <div class="logo">
+    <img src="./Halaman home_files/Barcelona_(Logo).png" alt="fc barcelona" width="80">
+    </div>
+
+    <!--judul halaman home-->
+    <div class="judul">
+    <h1 align="center">fc barcelona blog </h1>
+    </div>
+
+     <!--paragraf -->
+     <div class="p">
+        <p align="center">
+            FC Barcelona is one of the best clubs in the world. where this club is a club that has won five champions league titles
+        </p>
+    </div>
+
+    <!--bottom instagram-->
+    <div class="instagram">
+        <div class="instagram1">
+            <img src="./Halaman home_files/logo ig.png" alt="ig leonza" width="100px">
+            <a target="blank" href="https://www.instagram.com/muhammadleonza/" alt="ig leonza"><h2>@muhammadleonza</h2></a>
+            <h4>leonza</h4>
+            <p class="p1">
+                Muhammad leonza merupakan salah satu penggemar fc barcelona. Pemain favoritnya ialah lionel messi.
+            </p>
+            <a target="blank" href="https://norisevick.wordpress.com/" alt="web leonza"><button class="tombol" id="kiri">Read More</button></a>
+        </div>
+
+        <div class="instagram2">
+            <img src="./Halaman home_files/logo ig.png" alt="ig barcelona" width="100px">
+            <a target="blank" href="https://www.instagram.com/fcbarcelona/" alt="ig barcelona"><h2>@fcbarcelona</h2></a>
+            <h4>barca</h4>
+            <p class="p1">
+                FC Barcelona is one of the best clubs in the world. where this club is a club that has won five champions league titles
+            </p>
+            <a target="blank" href="https://www.fcbarcelona.com/en/" alt="web fc barcelona"><button class="tombol" id="kanan">Read More</button></a>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <h4>@copyright 2022 || by muhammadleonza</h4>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

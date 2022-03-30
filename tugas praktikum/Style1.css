@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+body {
+    background-image:  url(/frontend/images/barcelona-coat-of-arms-of-football-wallpaper-1280x720_45.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.judul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+.menu {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px 30px;
+    border: 1px solid blue;
+    transition: 0,6s;
+    margin-top: 10px;
+}
+
+ul li a:hover{
+    background-color: yellow;
+    color: blue;
+
+}
+
+.judul h1{
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 70px;
+    margin-top: 300px;
+}
+
+.p p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    
+}
+
+.instagram{
+    background-color: blue;
+    height: 40vh;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.instagram1{
+    width: 45%;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+    color: yellow;
+}
+h2{
+    color: yellow;
+}
+a{
+    color: yellow;
+}
+.instagram2{
+    width: 45%;
+    margin-right: 25px;
+    float: right;
+    text-align: center;
+    color: yellow;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: blue;
+    padding: 5px 30px;
+    background-color: yellow;
+}
+footer {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    padding: 2vh;
+    width: 100%;
+}
